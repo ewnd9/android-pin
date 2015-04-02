@@ -5,7 +5,8 @@
     xmlns:pin="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="@dimen/fragment_padding">
+    android:layout_marginTop="@dimen/fragment_padding"
+    android:background="#FFF">
 
     <TextView
         android:id="@+id/pin_header_label"
