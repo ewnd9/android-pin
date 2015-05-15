@@ -56,7 +56,7 @@ public class PinKeyboardView extends KeyboardView {
                 res.getDimensionPixelSize(R.dimen.pin_keyboard_default_text_size));
         int textColor = a.getColor(R.styleable.PinKeyboardView_textColor, Color.BLACK);
         int underlineColor = a.getColor(R.styleable.PinKeyboardView_keyUnderlineColor,
-                getResources().getColor(R.color.pin_light_gray_50));
+                getResources().getColor(R.color.yellow));
         a.recycle();
 
         mPaint = new Paint();

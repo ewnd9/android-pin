@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="@dimen/fragment_padding"
-    android:background="#FFF">
+    android:background="@color/dark_background">
 
     <TextView
         android:id="@+id/pin_header_label"
@@ -16,7 +16,7 @@
         android:textSize="@dimen/pin_header_label_size"
         android:layout_marginTop="@dimen/fragment_padding"
         android:layout_marginBottom="@dimen/fragment_padding"
-        android:textColor="@color/pin_gray"
+        android:textColor="@color/yellow"
         android:gravity="center" />
 
     <com.venmo.android.pin.view.PinputView
@@ -27,8 +27,8 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:textSize="@dimen/pinputview_default_text_size"
-        pin:backgroundColor="@color/pin_light_gray_50"
-        pin:foregroundColor="@color/pin_blue" />
+        pin:backgroundColor="@color/dark_red"
+        pin:foregroundColor="@color/yellow" />
 
     <ProgressBar
         android:id="@+id/pin_progress_spinner"
@@ -46,7 +46,7 @@
         android:layout_marginTop="32dp"
         android:background="@android:color/transparent"
         android:layout_centerInParent="true"
-        pin:textColor="@color/pin_blue"
+        pin:textColor="@color/yellow"
         pin:keyBackground="@drawable/pin_key_selector" />
 
 </RelativeLayout>
